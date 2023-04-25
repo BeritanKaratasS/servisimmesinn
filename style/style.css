@@ -32,14 +32,7 @@
   display: flex;
   align-items: center;
   }
-  .logo img {
-    animation:infinite;
-    animation-duration: 0.5s;
-  
-    height: 15em;
-    display: inline-block;
-    margin-right: 0px;
-  }
+
   
   h1 {
   
