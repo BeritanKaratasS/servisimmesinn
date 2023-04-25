@@ -1,0 +1,96 @@
+@keyframes slideInLeft {
+    from{
+      transform:translateX(-300px);
+    }
+    to{
+      transform:translateX(0);
+    }
+  
+   }
+  
+  
+  .slideindown{
+    animation: slideindown 3s ;
+  }
+  body {
+    background: linear-gradient(white, skyblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .header {
+    background-color: #0A2A5C df;
+    text-align: center;
+    animation: forwards;
+  }
+  .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+  .logo-container {
+  display: flex;
+  align-items: center;
+  }
+  .logo img {
+    animation:infinite;
+    animation-duration: 0.5s;
+  
+    height: 15em;
+    display: inline-block;
+    margin-right: 0px;
+  }
+  
+  h1 {
+  
+    display: flex;
+    color: #0A2A5C;
+    font-family: "oswald", "consolas";
+    font-weight: bold;
+    font-size: 30px;
+    right: 500px;
+  }
+  .h2{
+    display: flex;
+    color: #0A2A5C;
+    font-family: "oswald", "consolas";
+    font-weight: bold;
+    font-size: 20px;
+    right: 500px;
+  }
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
+  .sutunlar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .sutun {
+    font-family: "Oswald";
+    font-size: large;
+    flex: 1;
+    margin: 5px;
+    padding: 50px;
+    text-align: center;
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    animation:slideInLeft  1s ease-in;
+    
+  }
+  
+  .sutun:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0, 38, 255, 0.3);
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
